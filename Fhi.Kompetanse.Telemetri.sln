@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fhi.Kompetanse.Telemetri.WebApi.Front", "Fhi.Kompetanse.Telemetri.WebApi.Front\Fhi.Kompetanse.Telemetri.WebApi.Front.csproj", "{D1AF1FBF-B589-486C-B214-45B7136C7129}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domene", "domene", "{2DA5B966-2884-4619-8172-78F51ACFAF05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fhi.Kompetanse.Telemetri.Domene", "Fhi.Kompetanse.Telemetri.Domene\Fhi.Kompetanse.Telemetri.Domene.csproj", "{4A95A770-8AF4-4511-B959-1DC626F88FC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{C18A1FAF-0474-4DB8-884B-C54186FF95D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fhi.Kompetanse.Telemetri.Backend.PersonWebApi", "Fhi.Kompetanse.Telemetri.Backend.PersonWebApi\Fhi.Kompetanse.Telemetri.Backend.PersonWebApi.csproj", "{45BA6A75-68C9-4DDE-9F9E-E6ADE863393C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "contracts", "contracts", "{1A83B590-33D8-4501-981C-DA832E665B48}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fhi.Kompetanse.Telemetri.Contracts", "Fhi.Kompetanse.Telemetri.Contracts\Fhi.Kompetanse.Telemetri.Contracts.csproj", "{B94F7802-C70F-48B0-98A0-9D35D8597222}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{47FDCBF9-7E00-461B-94E0-A74D09F25379}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fhi.Kompetanse.Telemetri.External.AddressWebApi", "Fhi.Kompetanse.Telemetri.External.AddressWebApi\Fhi.Kompetanse.Telemetri.External.AddressWebApi.csproj", "{7A7D0245-82C4-450E-88FD-89FB801448AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{979F2DDB-50F2-4B8F-8D96-0BAF6053CD7A}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		prometheus.yml = prometheus.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{57CC0DD3-BD60-43BB-810C-C7BFA2D20B1B}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fhi.Kompetanse.Telemetri.Backend.WorkplaceWebApi", "Fhi.Kompetanse.Telemetri.Backend.WorkplaceWebApi\Fhi.Kompetanse.Telemetri.Backend.WorkplaceWebApi.csproj", "{A32F0749-2D82-4002-91AF-06579B42DDD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1AF1FBF-B589-486C-B214-45B7136C7129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AF1FBF-B589-486C-B214-45B7136C7129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AF1FBF-B589-486C-B214-45B7136C7129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AF1FBF-B589-486C-B214-45B7136C7129}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A95A770-8AF4-4511-B959-1DC626F88FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A95A770-8AF4-4511-B959-1DC626F88FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A95A770-8AF4-4511-B959-1DC626F88FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A95A770-8AF4-4511-B959-1DC626F88FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45BA6A75-68C9-4DDE-9F9E-E6ADE863393C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45BA6A75-68C9-4DDE-9F9E-E6ADE863393C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45BA6A75-68C9-4DDE-9F9E-E6ADE863393C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45BA6A75-68C9-4DDE-9F9E-E6ADE863393C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B94F7802-C70F-48B0-98A0-9D35D8597222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B94F7802-C70F-48B0-98A0-9D35D8597222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B94F7802-C70F-48B0-98A0-9D35D8597222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B94F7802-C70F-48B0-98A0-9D35D8597222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7D0245-82C4-450E-88FD-89FB801448AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7D0245-82C4-450E-88FD-89FB801448AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7D0245-82C4-450E-88FD-89FB801448AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7D0245-82C4-450E-88FD-89FB801448AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32F0749-2D82-4002-91AF-06579B42DDD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32F0749-2D82-4002-91AF-06579B42DDD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32F0749-2D82-4002-91AF-06579B42DDD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32F0749-2D82-4002-91AF-06579B42DDD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A95A770-8AF4-4511-B959-1DC626F88FC5} = {2DA5B966-2884-4619-8172-78F51ACFAF05}
+		{45BA6A75-68C9-4DDE-9F9E-E6ADE863393C} = {C18A1FAF-0474-4DB8-884B-C54186FF95D9}
+		{B94F7802-C70F-48B0-98A0-9D35D8597222} = {1A83B590-33D8-4501-981C-DA832E665B48}
+		{47FDCBF9-7E00-461B-94E0-A74D09F25379} = {2DA5B966-2884-4619-8172-78F51ACFAF05}
+		{7A7D0245-82C4-450E-88FD-89FB801448AC} = {47FDCBF9-7E00-461B-94E0-A74D09F25379}
+		{A32F0749-2D82-4002-91AF-06579B42DDD0} = {C18A1FAF-0474-4DB8-884B-C54186FF95D9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A56B9CB-9FA8-4270-8471-3FD9A85812B8}
+	EndGlobalSection
+EndGlobal

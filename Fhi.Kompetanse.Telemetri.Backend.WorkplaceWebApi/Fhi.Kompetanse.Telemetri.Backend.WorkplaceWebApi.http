@@ -1,0 +1,6 @@
+@Fhi.Kompetanse.Telemetri.Backend.WorkplaceWebApi_HostAddress = http://localhost:5262
+
+GET {{Fhi.Kompetanse.Telemetri.Backend.WorkplaceWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

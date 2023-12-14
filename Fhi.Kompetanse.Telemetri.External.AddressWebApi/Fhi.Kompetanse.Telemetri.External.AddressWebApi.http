@@ -1,0 +1,6 @@
+@Fhi.Kompetanse.Telemetri.External.AddressWebApi_HostAddress = http://localhost:5041
+
+GET {{Fhi.Kompetanse.Telemetri.External.AddressWebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

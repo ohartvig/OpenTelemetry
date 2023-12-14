@@ -1,0 +1,31 @@
+version: "3.7"
+services:
+  sql-server-db:
+    container_name: "DbTeleTest"
+    image: mcr.microsoft.com/mssql/server
+    ports:
+      - "1501:1433"   
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_COLLATION=Danish_Norwegian_CI_AS
+      - DOTNET_SYSTEM_GLOBALIZATION_INVARIANT=true
+      - SA_PASSWORD=Kompetanse&1234
+
+  jaeger:
+    container_name: "Jaeger"
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "16686:16686"   
+      - "4317:4317" 
+      - "4318:4318"  
+    environment:
+      COLLECTOR_OTLP_ENABLED: "true"
+
+  prometheus:
+    image: prom/prometheus
+    volumes:
+      - "./prometheus.yml:/etc/prometheus/prometheus.yml"
+    ports:
+      - 9090:9090
+
+ 
